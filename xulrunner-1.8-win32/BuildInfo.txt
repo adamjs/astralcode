@@ -1,0 +1,19 @@
+Built using Visual Studio 2005 Express on May 23, 2008
+XULRunner build: FIREFOX_2_0_0_13_RELEASE
+
+To build yourself, follow the directions at:
+http://svn.secondlife.com/trac/llmozlib/browser/trunk/llmozlib2/README-win32.txt
+
+While building on Visual Studio 2005 Express, you may encounter some build errors. To fix them, follow these directions:
+- Attempt to build.  It should go for quite a while, then throw an
+error related to xpidl.exe.  I believe the error code is 53.
+- Copy objdir-opt-xulrunner-small\xpcom\typelib\xpidl
+\xpidl.exe.manifest and objdir-opt-xulrunner-small\xpcom\typelib\xpt
+\tools\xpt_link.exe.manifest to the directory objdir-opt-xulrunner-
+small\dist\bin.
+- Build again.  It should finish.
+- Do it all over again using the .mozconfig.debug file.  The business
+with the manifest files will be in objdir-debug-xulrunner-small this
+time. 
+
+Use copy_products_windows.bat to create the final directory structure.
