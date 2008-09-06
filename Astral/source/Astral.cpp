@@ -16,6 +16,9 @@
 	The Initial Developer of the Original Code is Adam J. Simmons.
 	Portions created by the Initial Developer are Copyright (C) 2008
 	by the Initial Developer. All Rights Reserved.
+	
+	Portions of the code are derived from LLMozLib (http://ubrowser.com/) 
+	and are Copyright (C) 2006 Callum Prentice and Linden Lab Inc.
 */
 
 #include "Astral.h"
