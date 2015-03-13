@@ -1,0 +1,1 @@
+A wrapper for Mozilla Gecko that allows a user to manage multiple 'browsers' and render their contents to a texture. Primarily designed for use with 'Navi'.
